@@ -1,0 +1,30 @@
+{
+	"status":"0",
+	"msg":"success",
+	"result":[
+		{
+			"produyctId":"10001",
+			"productName":"小米6",
+			"productPrice":"2008",
+			"productImg":"1.jpg"
+		},
+		{
+			"produyctId":"10001",
+			"productName":"音响",
+			"productPrice":"108",
+			"productImg":"2.jpg"
+		},
+		{
+			"produyctId":"10001",
+			"productName":"小米pro",
+			"productPrice":"5108",
+			"productImg":"3.jpg"
+		},
+		{
+			"produyctId":"10001",
+			"productName":"小米手环",
+			"productPrice":"208",
+			"productImg":"4.jpg"
+		}
+	]
+}
