@@ -4,18 +4,30 @@
 	"result":[
 		{
 			"produyctId":"10001",
-			"productName":"小米6",
+			"productName":"小米66",
 			"productPrice":"2008",
 			"productImg":"1.jpg"
 		},
 		{
-			"produyctId":"10001",
+			"produyctId":"10002",
 			"productName":"音响",
 			"productPrice":"108",
 			"productImg":"2.jpg"
 		},
 		{
-			"produyctId":"10001",
+			"produyctId":"10003",
+			"productName":"小米pro",
+			"productPrice":"5108",
+			"productImg":"3.jpg"
+		},
+		{
+			"produyctId":"10004",
+			"productName":"小米手环",
+			"productPrice":"208",
+			"productImg":"4.jpg"
+		},
+		{
+			"produyctId":"10005",
 			"productName":"小米pro",
 			"productPrice":"5108",
 			"productImg":"3.jpg"
@@ -23,8 +35,9 @@
 		{
 			"produyctId":"10001",
 			"productName":"小米手环",
-			"productPrice":"208",
+			"productPrice":"2080",
 			"productImg":"4.jpg"
-		}
+		},
+		
 	]
 }

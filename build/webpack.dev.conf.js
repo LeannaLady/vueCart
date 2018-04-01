@@ -9,8 +9,8 @@ const CopyWebpackPlugin = require('copy-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const FriendlyErrorsPlugin = require('friendly-errors-webpack-plugin')
 const portfinder = require('portfinder')
-// 配置接口请求
-const goodsData = require('./../mock/goods.json')
+// 配置接口请求 模拟静态文件调接口数据
+// const goodsData = require('./../mock/goods.json')
 
 // 配置接口请求end
 
@@ -46,13 +46,14 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     quiet: true, // necessary for FriendlyErrorsPlugin
     watchOptions: {
       poll: config.dev.poll,
-    },
-    before(app){
-      app.get('/api/goods',function(req,res,next){
-        res.json(goodsData)
-      })
-
     }
+    //, 模拟静态文件调接口数据
+    // before(app){
+    //   app.get('/api/goods',function(req,res,next){
+    //     res.json(goodsData)
+    //   })
+
+    // }
   },
   plugins: [
     new webpack.DefinePlugin({
